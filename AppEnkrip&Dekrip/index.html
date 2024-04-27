@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryption and Decryption</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Encryption and Decryption</h1>
+      <div class="encrypt">
+        <h2>Encrypt Text</h2>
+        <input type="text" id="encryptText" placeholder="Enter Text to Encrypt" />
+        <input type="password" id="encryptPassword" placeholder="Enter Password" />
+        <button onclick="encrypt()">Encrypt</button>
+        <p id="encryptedResult"></p>
+      </div>
+      <div class="decrypt">
+        <h2>Decrypt Text</h2>
+        <input type="text" id="decryptText" placeholder="Enter Text to Decrypt" />
+        <input type="password" id="decryptPassword" placeholder="Enter Password" />
+        <button onclick="decrypt()">Decrypt</button>
+        <p id="decryptedResult"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
