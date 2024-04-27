@@ -2,6 +2,6 @@
 
 <q></q>
 
-<img href="images/1.png" />
-<img href="images/2.png" />
-<img href="images/3.png" />
+<img href="/AppEnkrip&Dekrip/images/1.png" />
+<img href="/AppEnkrip&Dekrip/images/2.png" />
+<img href="/AppEnkrip&Dekrip/images/3.png" />
